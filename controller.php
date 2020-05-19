@@ -6,10 +6,10 @@ include_once('PHPMailer/PHPMailerAutoload.php');
  $model=new model;
 
 
-//$location=$model->select_all1($conn,"tbl_location");
-//$dept=$model->select_all1($conn,"tbl_department");
-//$travel=$model->select_all1($conn,"tbl_transportmode");
-//$mdmessage=$model->select_all1($conn,"tbl_mdform");
+ $location=$model->select_all1($conn,"tbl_location");
+ $dept=$model->select_all1($conn,"tbl_department");
+ $travel=$model->select_all1($conn,"tbl_transportmode");
+ $mdmessage=$model->select_all1($conn,"tbl_mdform");
 
 $all=$model->select_all($conn,"tbl_taskdata");
 	
@@ -104,7 +104,7 @@ if(isset($_GET['s_id']))
 }
 
 
-/*
+
 if(isset($_REQUEST['aaddtask']))
 {
 	$adminaddtask=$_REQUEST['adminaddtask']; 
@@ -136,7 +136,7 @@ if(isset($_REQUEST['aaddtask']))
 	{
 		echo "Error";
 	}
-}*/
+}
 
 
 

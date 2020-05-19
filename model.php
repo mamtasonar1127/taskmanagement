@@ -1,6 +1,6 @@
 <?php
 
-$conn=new MySQLi("localhost","root","","tmsbrd");
+$conn=new MySQLi("localhost:3307","root","","tmsbrd");
 
 
 class model
@@ -9,7 +9,7 @@ class model
 	 
 	
 	
-	/* function select_reminder($conn)
+	 function select_reminder($conn)
 	{
 		
 
@@ -23,7 +23,7 @@ class model
 		return $r;
 		
 		
-	}*/
+	}
 	
 	 function select_allexcel($conn,$table)
 	{
@@ -54,7 +54,7 @@ class model
 	
 	
 	
-	/*
+	
 	 function select_all1($conn,$table)
 	{
 		$sql="select * from `$table`";
@@ -68,6 +68,8 @@ class model
 		}
 		return $r;
 		}
+
+	
 	
 	 function select_all2($conn,$table)
 	{
@@ -83,7 +85,7 @@ class model
 		return $r;
 	}
 	
-	*/
+	
 	
 	
 	 function select_where($conn,$table,$where)

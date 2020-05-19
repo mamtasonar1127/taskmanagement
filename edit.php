@@ -1,9 +1,9 @@
 <?php
 include("header.php");
 $i=$_REQUEST['i'];
-//echo $i;
+echo $i;
 $ii=$_REQUEST['ii'];
-//echo $ii;
+echo $ii;
 
 
 ?>
@@ -57,10 +57,11 @@ foreach($edittask as $e)
 <option></option>
 <?php
 $i=$_REQUEST['i'];
-//echo $i;
+echo $i;
 $ii=$_REQUEST['ii'];
-//echo $ii;
+echo $ii;
 $suser="select username from tbl_reg where userdepartment='$ii' and location='$i'";
+echo $suser;
 $euser=$conn->query($suser);
 while($ul=$euser->fetch_object())
 {

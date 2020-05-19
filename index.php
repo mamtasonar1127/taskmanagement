@@ -31,13 +31,14 @@ body
 </style>
 
 
-<body>
+<body>
+
 
 <div class="w3-main">
 
 
 <header class="w3-container w3-theme" style="padding:7px 19px;">
- <img src="images/rotexlogo.jpe" height="50" width="150" >	
+ <h2>Task Management System</h2>
 </header>
 
 <div class="w3-container" style="padding:32px;">
