@@ -1,7 +1,7 @@
 <?php
 
-include_once("..\model\model.php");
-include_once('PHPMailer/PHPMailerAutoload.php');
+include("model\model.php");
+include('PHPMailer/PHPMailerAutoload.php');
 
  $model=new model;
 
