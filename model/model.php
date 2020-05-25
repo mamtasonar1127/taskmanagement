@@ -2,7 +2,10 @@
 
 
 $conn=new MySQLi("us-cdbr-iron-east-01.cleardb.net","b794f66015c511","19936af4","heroku_abf85657748f742");
+<<<<<<< HEAD:model/model.php
 
+=======
+>>>>>>> 10d8f8221b244ccaf1a32dcef0166ce6bd72b08a:model.php
 
 
 class model
