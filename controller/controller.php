@@ -1,6 +1,6 @@
 <?php
 
-include_once("model.php");
+include_once("../model/model.php");
 include_once('PHPMailer/PHPMailerAutoload.php');
 
  $model=new model;
@@ -1250,15 +1250,15 @@ if(isset($_REQUEST['login']))
 		$_SESSION['user']=$res;
 		if($_SESSION['user']->usercategory=='ADMIN')
 		{
-			header("location:admin.php");
+			header("location:view\admin.php");
 		}
 		else if($_SESSION['user']->usercategory=='MEMBER')
 		{
-			header("location:assignee.php");
+			header("location:view\assignee.php");
 		}	
 		else if($_SESSION['user']->usercategory=='USER')
 		{
-			header("location:home.php");
+			header("location:view\home.php");
 		}
 	}
 	 else
