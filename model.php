@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 $conn=new MySQLi("localhost:3307","root","","tmsbrd");
+=======
+$conn=new MySQLi("us-cdbr-iron-east-01.cleardb.net","b794f66015c511","19936af4","heroku_abf85657748f742");
+>>>>>>> bd22b9e305ced7e611a8576fdd0fd29b615486aa
 
 
 class model
