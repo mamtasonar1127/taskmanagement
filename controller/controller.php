@@ -1,6 +1,6 @@
 <?php
 
-include("model\model.php");
+include("../model/model.php");
 include('PHPMailer/PHPMailerAutoload.php');
 
  $model=new model;
